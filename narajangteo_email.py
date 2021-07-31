@@ -77,12 +77,12 @@ import smtplib, os
 from email.mime.text import MIMEText 
 from email.mime.multipart import MIMEMultipart 
 
-id = 'wemac' 
-password = 'columbus13!' 
-sendEmail = 'wemac@naver.com' 
+id = 'id' 
+password = 'pw' 
+sendEmail = 'aaac@naver.com' 
 subject = str(fromBidDt) + '~' + str(toBidDt) + ' 나라장터 공고 리스트'
 text = html
-addrs = ['sj@simonre.co.jp', 'shinekim@simonre.co.kr', 'parkhyungjae@kongje.or.kr','sklee@wemacc.com', 'jslee@wemacc.com', 'kimhyungki@kongje.or.kr', 'sunny@simonre.co.jp' ,'veronica@simonre.co.kr', 'rachelkoo@simonre.co.kr', 'dan@simonre.co.kr','hongchungmin@kongje.or.kr', 'koyeongchan@kongje.or.kr', 'jhlee@wemacc.com', 'ebchoi@wemacc.com', 'jessie@wemacc.com']  # send mail list 
+addrs = ['email@naver.com', 'abcd@naver.com]  # send mail list 
 
 # login 
 smtp = smtplib.SMTP('smtp.naver.com', 587) 
